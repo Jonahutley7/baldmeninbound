@@ -1,0 +1,472 @@
+[12:24:52] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[12:24:52] [Server thread/INFO]: Loading properties
+[12:24:52] [Server thread/INFO]: Default game type: SURVIVAL
+[12:24:52] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[12:24:52] [Server thread/INFO]: Debug logging is disabled
+[12:24:52] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[12:24:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[12:24:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:24:52] [Server thread/INFO]: Data value allowed items: 
+[12:24:52] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[12:24:52] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[12:24:52] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[12:24:52] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[12:24:52] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[12:24:52] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[12:24:52] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[12:24:52] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[12:24:52] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[12:24:52] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[12:24:52] [Server thread/INFO]: Generating keypair
+[12:24:52] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[12:24:52] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[12:24:52] [Server thread/INFO]: Using default channel type
+[12:24:52] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:24:52] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[12:24:52] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[12:24:52] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[12:24:52] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[12:24:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:24:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:24:52] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[12:24:52] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[12:24:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:24:52] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:24:52] [Server thread/INFO]: Preparing level "world"
+[12:24:52] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:24:52] [Server thread/INFO]: Mob Spawn Range: 4
+[12:24:52] [Server thread/INFO]: Anti X-Ray: true
+[12:24:52] [Server thread/INFO]: 	Engine Mode: 1
+[12:24:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:24:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:24:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:24:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:24:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:24:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:24:52] [Server thread/INFO]: Random Lighting Updates: false
+[12:24:52] [Server thread/INFO]: Structure Info Saving: true
+[12:24:52] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:24:52] [Server thread/INFO]: Max Entity Collisions: 8
+[12:24:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:24:52] [Server thread/INFO]: Max TNT Explosions: 100
+[12:24:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:24:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:24:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:24:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:24:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:24:52] [Server thread/INFO]: View Distance: 4
+[12:24:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:24:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:24:52] [Server thread/INFO]: Clear tick list: false
+[12:24:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:24:52] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:24:52] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:24:52] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:24:52] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:24:52] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:24:52] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:24:52] [Server thread/INFO]: Water over lava flow speed: 5
+[12:24:52] [Server thread/INFO]: Fix TNT cannons: false
+[12:24:52] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:24:52] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:24:52] [Server thread/INFO]: World async lighting: false
+[12:24:52] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:24:52] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:24:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:24:52] [Server thread/INFO]: Mob Spawn Range: 4
+[12:24:52] [Server thread/INFO]: Anti X-Ray: true
+[12:24:52] [Server thread/INFO]: 	Engine Mode: 1
+[12:24:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:24:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:24:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:24:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:24:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:24:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:24:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:24:52] [Server thread/INFO]: Random Lighting Updates: false
+[12:24:52] [Server thread/INFO]: Structure Info Saving: true
+[12:24:52] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:24:52] [Server thread/INFO]: Max Entity Collisions: 8
+[12:24:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:24:52] [Server thread/INFO]: Max TNT Explosions: 100
+[12:24:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:24:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:24:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:24:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:24:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:24:52] [Server thread/INFO]: View Distance: 4
+[12:24:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:24:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:24:52] [Server thread/INFO]: Clear tick list: false
+[12:24:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:24:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:24:52] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:24:52] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:24:52] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:24:52] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:24:52] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:24:52] [Server thread/INFO]: Water over lava flow speed: 5
+[12:24:52] [Server thread/INFO]: Fix TNT cannons: false
+[12:24:52] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:24:52] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:24:52] [Server thread/INFO]: World async lighting: false
+[12:24:52] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:24:52] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:24:53] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:24:53] [Server thread/INFO]: Mob Spawn Range: 4
+[12:24:53] [Server thread/INFO]: Anti X-Ray: true
+[12:24:53] [Server thread/INFO]: 	Engine Mode: 1
+[12:24:53] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:24:53] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:24:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:24:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:24:53] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:24:53] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:24:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:24:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:24:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:24:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:24:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:24:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:24:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:24:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:24:53] [Server thread/INFO]: Random Lighting Updates: false
+[12:24:53] [Server thread/INFO]: Structure Info Saving: true
+[12:24:53] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:24:53] [Server thread/INFO]: Max Entity Collisions: 8
+[12:24:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:24:53] [Server thread/INFO]: Max TNT Explosions: 100
+[12:24:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:24:53] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:24:53] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:24:53] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:24:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:24:53] [Server thread/INFO]: View Distance: 4
+[12:24:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:24:53] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:24:53] [Server thread/INFO]: Clear tick list: false
+[12:24:53] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:24:53] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:24:53] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:24:53] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:24:53] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:24:53] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:24:53] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:24:53] [Server thread/INFO]: Water over lava flow speed: 5
+[12:24:53] [Server thread/INFO]: Fix TNT cannons: false
+[12:24:53] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:24:53] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:24:53] [Server thread/INFO]: World async lighting: false
+[12:24:53] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:24:53] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:24:53] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6759091130979005178)
+[12:24:54] [Server thread/INFO]: Preparing spawn area: 83%
+[12:24:54] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6759091130979005178)
+[12:24:54] [Server thread/INFO]: Preparing start region for level 2 (Seed: 6759091130979005178)
+[12:24:54] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[12:24:54] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[12:24:54] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[12:24:54] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[12:24:54] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[12:24:54] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[12:24:55] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:24:55] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[12:24:55] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[12:24:55] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[12:24:55] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[12:24:55] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[12:24:55] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[12:24:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:24:55] [Server thread/INFO]: Done (2.352s)! For help, type "help" or "?"
+[12:24:55] [Server thread/INFO]: Timings Reset
+[12:24:55] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[12:24:55] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[12:24:55] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[12:28:18] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[12:50:11] [Thread-8/INFO]: UUID of player creeper_bussines is 29ee5795-7295-3e67-b8ee-39a5f06f3109
+[12:50:12] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1ca09b41[id=29ee5795-7295-3e67-b8ee-39a5f06f3109,name=creeper_bussines,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@563b81bc]},legacy=false] (/[0:0:0:0:0:0:0:1]:50364): You are banned from this server!
+Reason: Banned by an operator.
+[12:50:12] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1ca09b41[id=29ee5795-7295-3e67-b8ee-39a5f06f3109,name=creeper_bussines,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@563b81bc]},legacy=false] (/[0:0:0:0:0:0:0:1]:50364): You are banned from this server!
+Reason: Banned by an operator.
+[12:50:12] [Server thread/INFO]: com.mojang.authlib.GameProfile@1ca09b41[id=29ee5795-7295-3e67-b8ee-39a5f06f3109,name=creeper_bussines,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@563b81bc]},legacy=false] (/[0:0:0:0:0:0:0:1]:50364) lost connection: You are banned from this server!
+Reason: Banned by an operator.
+[12:57:04] [Thread-9/INFO]: UUID of player JONAH is b171e470-b22c-328d-bb78-8be8cdb413bb
+[12:57:04] [Server thread/INFO]: JONAH[/[0:0:0:0:0:0:0:1]:48346] logged in with entity id 435 at ([world]-219.16403701517046, 71.50323351965113, 170.01240603926513)
+[12:57:36] [Server thread/INFO]: JONAH issued server command: /brush gravity 5
+[12:58:36] [Server thread/INFO]: JONAH lost connection: Disconnected
+[12:58:36] [Server thread/INFO]: JONAH left the game.
+[13:53:22] [Thread-12/INFO]: UUID of player JONAH is b171e470-b22c-328d-bb78-8be8cdb413bb
+[13:53:22] [Server thread/INFO]: JONAH[/[0:0:0:0:0:0:0:1]:44038] logged in with entity id 492 at ([world]-230.60107103698945, 72.0, 171.31737828570058)
+[13:54:05] [Server thread/INFO]: JONAH issued server command: //
+[13:54:26] [Server thread/INFO]: JONAH issued server command: /superpickaxe
+[13:54:46] [Server thread/INFO]: JONAH issued server command: /superpickaxe recur
+[13:54:51] [Server thread/INFO]: JONAH issued server command: /superpickaxe recur 5
+[13:55:50] [Server thread/INFO]: JONAH lost connection: Disconnected
+[13:55:50] [Server thread/INFO]: JONAH left the game.
+[14:15:47] [Thread-14/INFO]: UUID of player the_twigergigger is ce9ff955-75e5-3525-9c14-baac6d5e42d2
+[14:15:47] [Server thread/INFO]: the_twigergigger[/[0:0:0:0:0:0:0:1]:38684] logged in with entity id 560 at ([world]-15.029514816769456, 86.0, 68.21182429419368)
+[14:16:54] [Thread-15/INFO]: UUID of player JONAH is b171e470-b22c-328d-bb78-8be8cdb413bb
+[14:16:54] [Server thread/INFO]: JONAH[/[0:0:0:0:0:0:0:1]:42996] logged in with entity id 631 at ([world]-224.67433878903574, 64.0, 172.33459362829004)
+[14:17:13] [Server thread/INFO]: JONAH issued server command: //
+[14:17:18] [Server thread/INFO]: JONAH issued server command: /superpickaxe recur 5
+[14:17:57] [Server thread/INFO]: JONAH issued server command: /tp twiger_gigger
+[14:17:57] [Server thread/INFO]: [JONAH: The entity UUID provided is in an invalid format]
+[14:18:12] [Server thread/INFO]: JONAH issued server command: /tp twigergigger JONAH
+[14:18:12] [Server thread/INFO]: [JONAH: The entity UUID provided is in an invalid format]
+[14:18:38] [Server thread/INFO]: JONAH issued server command: /tp the_twigergigger JONAH
+[14:18:38] [Server thread/INFO]: [JONAH: Teleported the_twigergigger to JONAH]
+[14:18:52] [Server thread/INFO]: JONAH issued server command: /gamemode 3 the_twigergigger
+[14:18:52] [Server thread/INFO]: [JONAH: Set the_twigergigger's game mode to Spectator Mode]
+[14:19:03] [Server thread/INFO]: JONAH issued server command: /gamemode 1 the_twigergigger
+[14:19:03] [Server thread/INFO]: [JONAH: Set the_twigergigger's game mode to Creative Mode]
+[14:19:40] [Async Chat Thread - #0/INFO]: <JONAH> yo play on this in 3rd[m
+
+[14:19:42] [Server thread/INFO]: JONAH lost connection: Disconnected
+[14:19:42] [Server thread/INFO]: JONAH left the game.
+[14:20:04] [Server thread/INFO]: the_twigergigger lost connection: Disconnected
+[14:20:04] [Server thread/INFO]: the_twigergigger left the game.
+[14:20:58] [Thread-16/INFO]: UUID of player the_twigergigger is ce9ff955-75e5-3525-9c14-baac6d5e42d2
+[14:20:58] [Server thread/INFO]: the_twigergigger[/[0:0:0:0:0:0:0:1]:60988] logged in with entity id 1087 at ([world]-185.38105136875615, 68.0, 195.4135905468771)
+[14:22:50] [Server thread/INFO]: the_twigergigger has just earned the achievement [Taking Inventory]
+[14:24:35] [Thread-17/INFO]: UUID of player creeperotfitkggg is a7b6ce5c-faf4-39fe-a2a1-117628c4324f
+[14:24:35] [Server thread/INFO]: creeperotfitkggg[/[0:0:0:0:0:0:0:1]:44584] logged in with entity id 1470 at ([world]-226.6074496202021, 73.0, 168.4226885262535)
+[14:25:04] [Thread-18/INFO]: UUID of player JONAH is b171e470-b22c-328d-bb78-8be8cdb413bb
+[14:25:04] [Server thread/INFO]: JONAH[/[0:0:0:0:0:0:0:1]:50898] logged in with entity id 1477 at ([world]-224.01113567741967, 71.0, 166.19892505702546)
+[14:25:10] [Server thread/INFO]: creeperotfitkggg issued server command: /hi
+[14:25:19] [Async Chat Thread - #1/INFO]: <creeperotfitkggg> hi[m
+
+[14:25:23] [Async Chat Thread - #1/INFO]: <JONAH> hi[m
+
+[14:25:26] [Async Chat Thread - #1/INFO]: <the_twigergigger> wsg[m
+
+[14:25:48] [Async Chat Thread - #1/INFO]: <the_twigergigger> come tp to me and look at my base[m
+
+[14:26:27] [Server thread/INFO]: creeperotfitkggg has just earned the achievement [Taking Inventory]
+[14:26:47] [Async Chat Thread - #1/INFO]: <JONAH> wait is creeperotfitkggg zachary or who is this[m
+
+[14:26:50] [Async Chat Thread - #1/INFO]: <creeperotfitkggg> cre[m
+
+[14:26:55] [Async Chat Thread - #1/INFO]: <JONAH> cre indeed.[m
+
+[14:27:05] [Async Chat Thread - #1/INFO]: <creeperotfitkggg> hi jonah[m
+
+[14:27:10] [Async Chat Thread - #1/INFO]: <JONAH> who are you[m
+
+[14:27:11] [Async Chat Thread - #1/INFO]: <JONAH> lol[m
+
+[14:27:23] [Async Chat Thread - #1/INFO]: <creeperotfitkggg> zach[m
+
+[14:27:28] [Async Chat Thread - #1/INFO]: <JONAH> oh ok[m
+
+[14:27:38] [Server thread/INFO]: JONAH issued server command: /tp JONAH the_twigergigger
+[14:27:38] [Server thread/INFO]: [JONAH: Teleported JONAH to the_twigergigger]
+[14:27:46] [Async Chat Thread - #1/INFO]: <JONAH> what the flip[m
+
+[14:27:56] [Server thread/INFO]: JONAH issued server command: /superpickaxe recur 5
+[14:28:10] [Async Chat Thread - #1/INFO]: <the_twigergigger> move im making a garden[m
+
+[14:28:22] [Server thread/INFO]: JONAH issued server command: /undo
+[14:28:23] [Server thread/INFO]: JONAH issued server command: /undo
+[14:28:26] [Async Chat Thread - #1/INFO]: <JONAH> lol[m
+
+[14:28:31] [Server thread/INFO]: JONAH issued server command: /undo
+[14:28:32] [Server thread/INFO]: JONAH issued server command: /undo
+[14:28:33] [Server thread/INFO]: the_twigergigger issued server command: /as hole
+[14:28:37] [Server thread/INFO]: JONAH issued server command: /undo
+[14:28:39] [Server thread/INFO]: JONAH issued server command: /undo
+[14:28:41] [Server thread/INFO]: JONAH issued server command: /redo
+[14:28:42] [Server thread/INFO]: JONAH issued server command: /redo
+[14:29:02] [Async Chat Thread - #1/INFO]: <JONAH> hehe[m
+
+[14:29:04] [Server thread/INFO]: the_twigergigger issued server command: /BRO STOP
+[14:29:14] [Server thread/INFO]: the_twigergigger issued server command: /stop
+[14:29:17] [Server thread/INFO]: JONAH issued server command: /tp creeperotfitkggg
+[14:29:17] [Server thread/INFO]: [JONAH: Teleported JONAH to creeperotfitkggg]
+[14:29:23] [Server thread/INFO]: JONAH issued server command: /undo
+[14:29:25] [Server thread/INFO]: JONAH issued server command: /undo
+[14:29:26] [Server thread/INFO]: creeperotfitkggg issued server command: /gamemode c
+[14:29:27] [Server thread/INFO]: JONAH issued server command: /undo
+[14:29:27] [Async Chat Thread - #1/INFO]: <the_twigergigger> bro[m
+
+[14:29:38] [Server thread/INFO]: JONAH issued server command: /gamemode 0 the_twigergigger
+[14:29:38] [Server thread/INFO]: [JONAH: Set the_twigergigger's game mode to Survival Mode]
+[14:29:44] [Async Chat Thread - #1/INFO]: <creeperotfitkggg> hahahahahahhaahhahhhahahahahahahahahahhahaah[m
+
+[14:29:50] [Async Chat Thread - #1/INFO]: <JONAH> shut[m
+
+[14:29:58] [Server thread/INFO]: JONAH issued server command: //
+[14:30:01] [Server thread/INFO]: JONAH issued server command: /superpickaxe
+[14:30:09] [Server thread/INFO]: JONAH issued server command: /superpickaxe single
+[14:30:10] [Async Chat Thread - #1/INFO]: <the_twigergigger> give me glass[m
+
+[14:30:17] [Server thread/INFO]: creeperotfitkggg lost connection: Disconnected
+[14:30:17] [Server thread/INFO]: creeperotfitkggg left the game.
+[14:30:21] [Async Chat Thread - #1/INFO]: <the_twigergigger> and 2 tors[m
+
+[14:30:27] [Async Chat Thread - #1/INFO]: <the_twigergigger> doors[m
+
+[14:30:49] [Async Chat Thread - #1/INFO]: <the_twigergigger> BRO WTF[m
+
+[14:30:55] [Async Chat Thread - #1/INFO]: <JONAH> zachary public execution[m
+
+[14:31:08] [Async Chat Thread - #1/INFO]: <JONAH> he's gonna die when he joins back[m
+
+[14:31:12] [Server thread/INFO]: the_twigergigger tried to swim in lava
+[14:31:23] [Async Chat Thread - #1/INFO]: <JONAH> my bad[m
+
+[14:31:31] [Async Chat Thread - #1/INFO]: <the_twigergigger> ima play my server fck[m
+
+[14:31:36] [Server thread/INFO]: the_twigergigger lost connection: Disconnected
+[14:31:36] [Server thread/INFO]: the_twigergigger left the game.
+[14:31:40] [Async Chat Thread - #1/INFO]: <JONAH> no pls stay[m
+
+[14:32:13] [Server thread/INFO]: JONAH issued server command: /clearinv
+[14:32:22] [Server thread/INFO]: JONAH issued server command: /kill @s
+[14:32:22] [Server thread/INFO]: [JONAH: The entity UUID provided is in an invalid format]
+[14:32:26] [Server thread/INFO]: JONAH issued server command: /kill JONAH
+[14:32:26] [Server thread/INFO]: JONAH fell out of the world
+[14:32:26] [Server thread/INFO]: [JONAH: Killed JONAH]
+[14:32:38] [Server thread/INFO]: JONAH issued server command: /kill all
+[14:32:38] [Server thread/INFO]: [JONAH: The entity UUID provided is in an invalid format]
+[14:33:17] [Server thread/INFO]: JONAH issued server command: /superpickaxe recur 9
+[14:33:22] [Server thread/INFO]: JONAH issued server command: /superpickaxe recur 5
+[14:33:49] [Server thread/INFO]: JONAH issued server command: /gamemode 0
+[14:33:49] [Server thread/INFO]: [JONAH: Set own game mode to Survival Mode]
+[14:34:02] [Server thread/INFO]: JONAH issued server command: /gamerule fall_damage false
+[14:34:02] [Server thread/INFO]: [JONAH: Game rule has been updated]
+[14:34:32] [Server thread/INFO]: JONAH issued server command: //
+[14:34:44] [Server thread/INFO]: JONAH issued server command: /gamemode 1
+[14:34:44] [Server thread/INFO]: [JONAH: Set own game mode to Creative Mode]
+[14:35:11] [Server thread/INFO]: JONAH issued server command: /gamerule peaceful
+[14:35:11] [Server thread/INFO]: [JONAH: No game rule called 'peaceful' is available]
+[14:35:19] [Server thread/INFO]: JONAH issued server command: /difficulty
+[14:35:25] [Server thread/INFO]: JONAH issued server command: /difficulty peaceful
+[14:35:25] [Server thread/INFO]: [JONAH: Set game difficulty to Peaceful]
+[14:35:31] [Server thread/INFO]: JONAH issued server command: /time set noon
+[14:35:31] [Server thread/INFO]: [JONAH: 'noon' is not a valid number]
+[14:35:37] [Server thread/INFO]: JONAH issued server command: /time set noon
+[14:35:37] [Server thread/INFO]: [JONAH: 'noon' is not a valid number]
+[14:35:39] [Server thread/INFO]: JONAH issued server command: /time
+[14:35:46] [Server thread/INFO]: JONAH issued server command: /time set 1200
+[14:35:46] [Server thread/INFO]: [JONAH: Set the time to 1200]
+[14:36:15] [Server thread/INFO]: JONAH issued server command: /brush sphere 1 5
+[14:36:25] [Thread-20/INFO]: UUID of player creeperotfitkggg is a7b6ce5c-faf4-39fe-a2a1-117628c4324f
+[14:36:25] [Server thread/INFO]: creeperotfitkggg[/[0:0:0:0:0:0:0:1]:32782] logged in with entity id 8712 at ([world]-190.38412539710558, 68.0, 184.33196165668528)
+[14:36:35] [Server thread/INFO]: creeperotfitkggg tried to swim in lava
+[14:36:38] [Server thread/INFO]: JONAH issued server command: /brush sphere 2 5
+[14:37:24] [Server thread/INFO]: JONAH issued server command: /brush gravity 5
+[14:37:38] [Server thread/INFO]: JONAH issued server command: /undo
+[14:37:40] [Server thread/INFO]: JONAH issued server command: /undo
+[14:37:41] [Server thread/INFO]: JONAH issued server command: /undo
+[14:37:43] [Server thread/INFO]: creeperotfitkggg suffocated in a wall
+[14:37:47] [Async Chat Thread - #2/INFO]: <JONAH> mb[m
+
+[14:37:52] [Server thread/INFO]: JONAH issued server command: /brush
+[14:37:57] [Server thread/INFO]: JONAH issued server command: /brush gravity
+[14:38:27] [Server thread/INFO]: creeperotfitkggg lost connection: Disconnected
+[14:38:27] [Server thread/INFO]: creeperotfitkggg left the game.
+[14:38:57] [Server thread/INFO]: JONAH issued server command: /brush smooth
+[14:46:50] [Server thread/INFO]: JONAH issued server command: /brush butcher
+[14:47:21] [Server thread/INFO]: JONAH issued server command: /brush clipboard
+[14:47:25] [Server thread/INFO]: JONAH issued server command: //copy
+[14:47:35] [Server thread/INFO]: JONAH issued server command: //copy
+[14:47:39] [Server thread/INFO]: JONAH issued server command: /select
+[14:47:45] [Server thread/INFO]: JONAH issued server command: //select
+[14:47:47] [Server thread/INFO]: JONAH issued server command: /help
+[14:47:49] [Server thread/INFO]: JONAH issued server command: //help
+[14:48:04] [Server thread/INFO]: JONAH issued server command: //help 2
+[14:48:08] [Server thread/INFO]: JONAH issued server command: //help 3
+[14:48:11] [Server thread/INFO]: JONAH issued server command: //help 4
+[14:48:13] [Server thread/INFO]: JONAH issued server command: //help 5
+[14:48:26] [Server thread/INFO]: JONAH issued server command: //fill
+[14:48:47] [Server thread/INFO]: JONAH issued server command: //fill grass 12 12
+[14:49:12] [Server thread/INFO]: JONAH issued server command: //fill grass 19 1
+[14:49:39] [Server thread/INFO]: JONAH issued server command: //fill grass 19 19
+[14:49:47] [Server thread/INFO]: JONAH issued server command: //fill grass 19 1
+[14:50:15] [Server thread/INFO]: JONAH issued server command: /brush gravity 5
+[14:50:36] [Server thread/INFO]: JONAH issued server command: /brush smooth 5
+[15:04:57] [Server thread/INFO]: JONAH issued server command: /kill Jonah
+[15:04:57] [Server thread/INFO]: JONAH fell out of the world
+[15:04:57] [Server thread/INFO]: [JONAH: Killed JONAH]
+[15:05:05] [Server thread/INFO]: JONAH lost connection: Disconnected
+[15:05:05] [Server thread/INFO]: JONAH left the game.
+[15:10:24] [Thread-22/INFO]: UUID of player JONAH is b171e470-b22c-328d-bb78-8be8cdb413bb
+[15:10:24] [Server thread/INFO]: JONAH[/[0:0:0:0:0:0:0:1]:44440] logged in with entity id 176312 at ([world]-269.8613478968439, 80.0, 142.73006601338943)
+[15:14:54] [Server thread/INFO]: JONAH issued server command: /tp JONAH -209 97 234245
+[15:14:54] [Server thread/INFO]: [JONAH: Teleported JONAH to -208.5, 97.0, 234245.5]
+[15:14:57] [Thread-23/INFO]: UUID of player hi_ is 0de7a445-9f6f-32e5-b661-94c7daf64b40
+[15:14:57] [Server thread/INFO]: hi_[/[0:0:0:0:0:0:0:1]:43880] logged in with entity id 202883 at ([world]-193.5, 72.0, 220.5)
+[15:15:11] [Async Chat Thread - #3/INFO]: <JONAH> hi_[m
+
+[15:15:28] [Server thread/INFO]: hi_ lost connection: Login timed out!
+[15:15:28] [Server thread/INFO]: hi_ left the game.
+[15:15:28] [Server thread/WARN]: handleDisconnection() called twice
+[15:15:32] [Thread-24/INFO]: UUID of player hi_ is 0de7a445-9f6f-32e5-b661-94c7daf64b40
+[15:15:33] [Server thread/INFO]: hi_[/[0:0:0:0:0:0:0:1]:46552] logged in with entity id 208631 at ([world]-193.5, 72.0, 220.5)
+[15:15:38] [Server thread/INFO]: JONAH issued server command: /tp JONAH -207 100 345634573456
+[15:15:38] [Server thread/INFO]: [JONAH: The number you have entered (3.456345734565E11) is too big, it must be at most 30000000]
+[15:15:50] [Server thread/INFO]: JONAH issued server command: /tp JONAH -207 80 645345
+[15:15:50] [Server thread/INFO]: [JONAH: Teleported JONAH to -206.5, 80.0, 645345.5]
+[15:16:29] [Server thread/INFO]: JONAH issued server command: /tp JONAH -201 90 24563473
+[15:16:29] [Server thread/INFO]: [JONAH: Teleported JONAH to -200.5, 90.0, 2.45634735E7]
+[15:16:36] [Async Chat Thread - #4/INFO]: <hi_> is zach here[m
+
+[15:16:39] [Async Chat Thread - #4/INFO]: <JONAH> no[m
+
+[15:16:42] [Async Chat Thread - #4/INFO]: <JONAH> who you[m
+
+[15:16:53] [Async Chat Thread - #4/INFO]: <hi_> tp me pls[m
+
+[15:17:03] [Server thread/INFO]: JONAH issued server command: /tp JONAH hi_
+[15:17:03] [Server thread/INFO]: [JONAH: Teleported JONAH to hi_]
+[15:17:12] [Server thread/INFO]: hi_ has just earned the achievement [Taking Inventory]
+[15:17:22] [Async Chat Thread - #4/INFO]: <hi_> you like it[m
+
+[15:18:15] [Async Chat Thread - #4/INFO]: <hi_> hello[m
+
+[15:19:08] [Async Chat Thread - #4/INFO]: <hi_> hello?[m
+
+[15:19:58] [Async Chat Thread - #4/INFO]: <hi_> JONAH[m
+
+[15:20:36] [Thread-25/INFO]: Disconnecting com.mojang.authlib.GameProfile@5a0d412d[id=8aee6ffe-4629-3808-9b86-a8371b0f6509,name=shop,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@476cdfd3]},legacy=false] (/[0:0:0:0:0:0:0:1]:33460): [LoginSecurity] This account is registered under the name Shop, please log in as such.
+[15:20:36] [Server thread/INFO]: com.mojang.authlib.GameProfile@5a0d412d[id=8aee6ffe-4629-3808-9b86-a8371b0f6509,name=shop,properties={isEaglerPlayer=[com.mojang.authlib.properties.Property@476cdfd3]},legacy=false] (/[0:0:0:0:0:0:0:1]:33460) lost connection: [LoginSecurity] This account is registered under the name Shop, please log in as such.
+[15:20:54] [Thread-26/INFO]: UUID of player shop2 is 5f378c4b-a475-378b-9055-2375501748c5
+[15:20:54] [Server thread/INFO]: shop2[/[0:0:0:0:0:0:0:1]:33390] logged in with entity id 251658 at ([world]-197.5, 70.0, 204.5)
+[15:21:05] [Server thread/INFO]: shop2 lost connection: Disconnected
+[15:21:05] [Server thread/INFO]: shop2 left the game.
+[15:21:59] [Async Chat Thread - #5/INFO]: <JONAH> who is you[m
+
+[15:22:08] [Async Chat Thread - #5/INFO]: <JONAH> sorry I was doing something[m
+
